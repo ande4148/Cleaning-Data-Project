@@ -1,0 +1,105 @@
+Column Name Definitions
+=================
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform was applied to some of these signals (as indicated by the 'f' prexix.
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+BodAccMn-XYZ
+BodAccSTD-XYZ
+
+	-Body accelerometer mean and standard deviation for X, Y, Z directions
+
+GravAccMn-XYZ
+GravAccStd-XYZ
+
+	-Gravity accelerometer mean and standard deviation for X, Y, Z directions
+
+BodAccJrkMn-XYZ
+BodAccJrkStd-XYZ
+
+	-Body accelerometer jerk signal mean and standard deviation for X, Y, Z directions
+
+BodGyroMn-XYZ
+BodGyroStd-XYZ
+
+	-Body gyroscope mean and standard deviation for the X, Y, Z directions
+
+BodGyJrkMn-XYZ
+BodGyJrkStd-XYZ
+
+	-Body gyroscope jerk signal mean and standard deviation for the X, Y, Z directions
+
+BodAccMagMn
+BodAccMagStd
+
+	-Body accelerometer magnitude mean and standard deviation for X, Y, Z directions
+
+GravAccMagMn
+GravAccMagStd
+
+	-Gravity accelerometer magnitude mean and standard deviation for X, Y, Z directions
+
+BodAccJrkMagMn
+BodAccJrkMagStd
+
+	-Body accelerometer jerk signal magnitude mean and standard deviation for X, Y, Z directions
+
+BodGyMagMn
+BodGyMagStd
+
+	-Body gyroscope magnitude mean and standard deviation for X, Y, Z directions
+
+BodGyJrkMagMn
+BodGyJrkMagStd
+
+	-Body gyroscope jerk signal magnitude mean and standard deviation for the X, Y, Z directions
+
+fBodAccMn-XYZ
+fBodAccStd-XYZ
+fBodAccMnFreq-XYZ
+
+	-FFT Body accelerometer mean, standard deviation, and mean frequency for X, Y, Z directions
+
+fBodAccJrkMn-XYZ
+fBodAccJrkStd-XYZ
+fBodAccJrkMnFreq-XYZ
+
+	-FFT Body accelerometer jerk signal mean, standard deviation, and mean frequency for X, Y, Z directions
+
+fBodGyroMn-XYZ
+fBodGyroStd-XYZ
+fBodGyroMnFreq-XYZ
+
+	-FFT Body gyroscope mean, standard deviation, and mean frequency for X, Y, Z directions
+
+fBodAccMagMn
+fBodAccMagStd
+fBodAccMagMnFreq
+
+	-FFT Body accelerometer magnitude mean, standard deviation, and mean frequency for X, Y, Z directions
+
+fBodAccJrkMagMn
+fBodAccJrkMagStd
+fBodAccJrkMagMnFreq
+
+	--FFT Body accelerometer jerk signal magnitude mean, standard deviation, and mean frequency for X, Y, Z directions
+
+fBodGyroMagMn
+fBodGyroMagStd
+fBodGyroMagMnFreq
+
+	-FFT Body gyroscope magnitude mean, standard deviation, and mean frequency for X, Y, Z directions
+
+fBodGyroJrkMagMn
+fBodGyroJrkMagMnStd
+fBodGyroJrkMagMnFreq
+
+	--FFT Body gyroscope jerk signal magnitude mean, standard deviation, and mean frequency for X, Y, Z directions
+
+
